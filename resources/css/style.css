@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Azo Sans';
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background: url(../img/homepage.png) fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* .logo-design{
+    margin-top: -10px;
+    padding-top: 0;
+    width:100%; 
+    height: 90px;
+} */
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 7rem;
+    transform: translate(0,-50%);
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#1E90FF, #00BFFF);
+    -webkit-background-clip: text;
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+.header-p{
+    font-size: 30px;
+    margin-top: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 13rem;
+    transform: translate(0, -50%);
+}
+.input-search-custom{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 7rem;
+    height: 3rem;
+    transform: translate(0,-50%);
+    margin-top: 8rem;
+}
+.input-search-custom .input-search-custom1{
+    width: 75%;
+    border: 1px solid #1E90FF;
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px;
+}
+.input-search-custom .btn-search-custom{
+    width: 25%;
+    border: 1px solid#1E90FF;
+    background-image: linear-gradient(to bottom,#1E90FF 0%, #00BFFF 100% );
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.nav-item:nth-last-child(1){
+    margin-right: 0;
+}
+.navbar-nav li a{
+    color: #000 !important;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a:hover{
+    color: #00BFFF !important;
+    /*  */
+}
+.navbar-nav li a:focus{
+    border-bottom: 2px solid #00BFFF !important;
+}
+
+.heading-special-offers{
+    font-size: 50px;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#1E90FF, #00BFFF);
+    -webkit-background-clip: text;
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+.special-offers-hr{
+    text-align: center;
+    display: block;
+    line-height: 5px;
+    height:5px;
+    margin: 2rem 0;
+    background: #1E90FF;
+}
+.special-offers-hr:before, .special-offers-hr:after {
+    content: '\2021';
+    font-size: 2rem;
+    color: #1E90FF;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+.special-offers-section{
+    background: #f1efef;
+    padding-bottom: 50px;
+}
+.card-offers{
+    border: none;
+    border-radius: 10px !important;
+}
+.discount{
+    width: 64px;
+    height: 64px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background: #1E90FF;
+    color: #fff;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -32px;
+    right: 20%;
+}
+.text-discount{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text-offers del{
+    font-size: 20px;
+    font-weight: bold !important;
+}
+.steps-header-hero{
+    position: relative;
+}
+.steps-header{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.steps-header-hero blockquote{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+.steps-header-hero blockquote::before{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1E90FF;
+    content: '\201c';
+}
+.steps-header-hero blockquote::after{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #1E90FF;
+    content: '\201d';
+}
+.shop-row{
+    padding-top: 5em;
+}
+.shops-img{
+    border-radius: 10px;
+}
+.shops-img img{
+    border: 10px solid #fff;
+    margin-top: -4em;
+    
+}
+.btn-browse{
+    color: #fff;
+    width: 10em;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #00BFFF 0%,#1E90FF 100%);
+}
+.btn-browse:hover{
+    color: #fff;
+    width: 10em;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #00BFFF 0%,#1E90FF 100%);
+}
+.mob-app{
+    width: 45%;
+}
+.card-shop-inscription{
+    border-radius: 10px;
+}
+.card-shop-inscription .card-header{
+    background: linear-gradient(to bottom, #00BFFF 0%,#1E90FF 100%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-shop-inscription .card-header span{
+    font-size: 20px;
+}
+.btn-click-here{
+    color: #fff;
+    width: 10em;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #0edaa7 0%,#07e0e7 100%);
+}
+.btn-click-here:hover{
+    color: #fff;
+    width: 10em;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom, #0edaa7 0%,#07e0e7 100%);
+}
+.social-links{
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-links i{
+    font-size: 30px;
+    padding-right: 1em;
+}
+@media only screen and (max-width: 992px){
+    .navbar{
+        text-align: center;
+        z-index: 99999;
+    }
+    .logo-design{
+        width: 150px !important;
+        height: 70px !important;
+    }
+}
+@media only screen and (max-width: 600px){
+    /* header{
+        background: none;
+    } */
+    .header-text{
+        left: 3rem;
+        font-size: 40px;
+
+    }
+    .heading-special-offers{
+        font-size: 30px;
+    }
+    .header-p{
+        left: 5rem;
+    }
+    .input-search-custom1{
+        width: 100%;
+    }
+    .input-search-custom .btn-search-custom{
+        width: 25%;
+        font-size: 10px;
+    }
+    .col-sm-12 .card-offers{
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .col-sm-12 .card-offers{
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .steps-header-hero{
+        position: relative;
+    }
+    .steps-header{
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .steps-header-hero blockquote{
+        font-size: 20px;
+        position: relative;
+        margin-top: 0 !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+    .steps-header-hero blockquote::before{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #1E90FF;
+        content: '\201c';
+    }
+    .steps-header-hero blockquote::after{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #1E90FF;
+        content: '\201d';
+    }
+    .shops-img{
+        margin-bottom: 5em;
+    }
+}

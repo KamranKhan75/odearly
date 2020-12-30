@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Azo Sans';
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background: url(../img/Other/headerbg_1.jpg);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo-design{
+    margin-top: -10px;
+    padding-top: 0;
+    width:100%; 
+    height: 90px;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 7rem;
+    transform: translate(0,-50%);
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#1E90FF, #00BFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-p{
+    font-size: 30px;
+    margin-top: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 13rem;
+    transform: translate(0, -50%);
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: 30px;
+}
+.nav-item:nth-last-child(1){
+    margin-right: 0;
+}
+.navbar-nav li a{
+    color: #000 !important;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a:hover{
+    color: #00BFFF !important;
+    /*  */
+}
+.navbar-nav li a:focus{
+    border-bottom: 2px solid #00BFFF !important;
+}
+/* =======Header Section End ========== */
+section.shopView {
+    padding: 4em 0 4em 0;
+}
+.filters {
+    border: 1px solid #ccc;
+    padding: 2em;
+    border-radius: 1em;
+}
+.filter-forms h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.filter-forms i.fas.fa-arrow-right {
+    color: #1998ff;
+    font-size: 18px;
+}
+.filter-forms h4 {
+    font-size: 18px;
+    margin-top: 7px;
+}
+form.searchFilters input[type="text"] {
+    width: 95%;
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+form.searchFilters input[type="text"]:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+button.filter-submit {
+    width: 13%;
+    background: #1998ff;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    border-radius: 0px 20px 20px 0px;
+    margin-left: -2em;
+    margin-bottom: 0.5em;
+}
+button.filter-submit:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+i.fas.fa-less-than {
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+select#sort {
+    width: 50%;
+    padding: 7px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+select#sort:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+.left-sec {
+    border: 1px solid #ccc;
+    margin-top: 2em;
+    border-radius: 10px;
+    text-align: center;
+}
+.grid-item-1 {
+    padding: 20px;
+}
+button.browseShop-Open {
+    border: 0;
+    padding: 6px;
+    background: #169dff;
+    color: #fff;
+    font-size: 13px;
+    margin-right: 2em;
+    margin-bottom: 20px;
+}
+i.far.fa-heart {
+    color: #108814;
+    font-size: 20px;
+}
+i.far.fa-check-circle {
+    color: #169dff;
+}
+button.browseShop-Cards {
+    border: 0;
+    padding: 10px;
+    width: 90%;
+    background: #14a0ff;
+    color: #fff;
+    border-radius: 22px;
+    margin-bottom: 2em;
+}
+button.browseShop-Cards:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+/* =======Footer ========== */
+.social-links {
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-links i {
+    font-size: 30px;
+    padding-right: 1em;
+}
+@media only screen and (max-width: 767px){
+    .navbar{
+        text-align: center;
+        z-index: 99999;
+    }
+    .header-text {
+        left: 2rem;
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+    .header-p {
+        font-size: 25px;
+        left: 2rem;
+    }
+    header {
+        height: 48vh;
+    }
+    button.contact-submit {
+        width: 100%;
+    }
+    
+}

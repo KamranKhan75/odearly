@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Azo Sans';
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background: url(../img/Other/headerbg_1.jpg);
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.logo-design{
+    margin-top: -10px;
+    padding-top: 0;
+    width:100%; 
+    height: 90px;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 7rem;
+    transform: translate(0,-50%);
+    font-size: 72px;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#1E90FF, #00BFFF);
+    -webkit-background-clip: text;
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+}
+.header-p{
+    font-size: 30px;
+    margin-top: 4rem;
+    position: absolute;
+    top: 50%;
+    left: 13rem;
+    transform: translate(0, -50%);
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-item:nth-last-child(1){
+    margin-right: 0;
+}
+.navbar-nav li a{
+    color: #000 !important;
+}
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a:hover{
+    color: #00BFFF !important;
+    /*  */
+}
+.navbar-nav li a:focus{
+    border-bottom: 2px solid #00BFFF !important;
+}
+/* =======Header Section End ========== */
+/* BROWSE SHOP SECTION */
+.special-offers-section{
+    background: #f1efef;
+    padding-bottom: 50px;
+}
+.nav li a{
+    color: #fff !important;
+}
+.nav li{
+    position: relative;
+}
+.nav li a:hover{
+    color: rgb(243, 240, 240) !important;
+    /*  */
+}
+.nav li a:focus{
+    border-bottom: 2px solid #fff !important;
+}
+.hero-card-custom{
+    border-radius: 20px !important;
+}
+.card-header-custom{
+    background: linear-gradient(to bottom, #1E90FF 0, #00BFFF 100%);
+}
+.card-body-custom{
+    background: linear-gradient(to bottom, #bbdbfc 0, #a5e6fc 100%);
+}
+.card-header.card-header-custom li.nav-item a {
+    padding: 2px;
+}
+/* ----Form----- */
+section.payInfo {
+    padding: 3em;
+}
+i.fas.fa-arrow-right {
+    color: #ffff;
+    font-size: 18px;
+}
+.confirmOrder h4 {
+    font-size: 23px;
+    background: #0ab0ff;
+    padding: 5px;
+    color: #fff;
+    border-radius: 20px;
+}
+table.oderTable td {
+    width: 65%;
+}
+.order {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2em;
+    margin-right: 2em;
+}
+.order1 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2em;
+}
+table.oderTable {
+    margin-bottom: 1em;
+}
+table.oderTable1 td {
+    width: 94%;
+}
+button.confirm {
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    background: #14a0ff;
+    color: #fff;
+    border-radius: 22px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+button.confirm:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+/* =======Footer ========== */
+.social-links {
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-links i {
+    font-size: 30px;
+    padding-right: 1em;
+}
+@media only screen and (max-width: 767px){
+    .navbar{
+        text-align: center;
+        z-index: 99999;
+    }
+    .header-text {
+        left: 2rem;
+        font-size: 36px;
+        letter-spacing: 0;
+    }
+    .header-p {
+        font-size: 25px;
+        left: 2rem;
+    }
+    header {
+        height: 48vh;
+    }
+    button.contact-submit {
+        width: 100%;
+    }
+    .paymentInfo h3 {
+        font-size: 18px;
+    }
+    
+}
